@@ -2,6 +2,7 @@
 Consider you are a company who are helping parents choose the right school for their kids. Find the best schools based on sports events, cultural events, fees, and teacher feedback. In
 order to achieve this we need to perform the following.
   
+  
 1.Create a POJO object in which represents parents or any person who is trying to search for a good school 
   Name, phoneno, email
   
