@@ -1,0 +1,32 @@
+@relation schoolsorted
+
+@attribute 'School Name' {'Nalanda English Medium School','St. Theresa\'s School','Loyola School','Cambridge International School','Lourdes Central School','St. Mary\'s School','BGS National Public School','Canara Girls\' High School','St. Aloysius High School','Kendriya Vidyalaya','St. Sebastian\'s School','Rosario School','Bharatiya Vidya Bhavan\'s School','Little Rock Indian School','City Central School','St. Joseph\'s Central School','Sharadha Vidalaya','Sacred Heart School','Sadvidya High School','Canara High School'}
+@attribute 'School Code' {NEMS016,STS008,LS011,CIS003,LCS005,SMS019,BGSNPS013,CGHS009,SAHS001,KV017,SSS018,RS012,BVBS006,LRIS004,CCS020,SJCS010,SHV015,SHS007,SHS014,CHS002}
+@attribute 'School Phone No' numeric
+@attribute 'Total Sports Events per Year' numeric
+@attribute 'Total Culture Events per Year' numeric
+@attribute 'Average Annual Fee' numeric
+@attribute 'Total Teacher Complaints' numeric
+@attribute 'Total Teacher Appreciation' numeric
+
+@data
+'Nalanda English Medium School',NEMS016,210976543,7,15,34800,6,4
+'St. Theresa\'s School',STS008,678901345,7,16,52000,8,4
+'Loyola School',LS011,890123467,8,17,35000,7,5
+'Cambridge International School',CIS003,567890123,8,18,49000,7,6
+'Lourdes Central School',LCS005,234568901,9,15,37800,6,5
+'St. Mary\'s School',SMS019,321098654,9,16,45000,7,5
+'BGS National Public School',BGSNPS013,912345678,9,18,78000,5,5
+'Canara Girls\' High School',CGHS009,876543210,10,19,25000,6,6
+'St. Aloysius High School',SAHS001,123456789,10,20,17240,5,8
+'Kendriya Vidyalaya',KV017,654321097,10,21,66300,4,6
+'St. Sebastian\'s School',SSS018,986543210,11,19,65500,5,7
+'Rosario School',RS012,567891234,11,20,33400,3,7
+'Bharatiya Vidya Bhavan\'s School',BVBS006,754321098,11,21,33800,5,7
+'Little Rock Indian School',LRIS004,907654321,12,22,50000,4,9
+'City Central School',CCS020,876432109,12,23,35600,4,8
+'St. Joseph\'s Central School',SJCS010,356789012,12,24,26000,4,8
+'Sharadha Vidalaya',SHV015,790123456,13,22,55900,3,9
+'Sacred Heart School',SHS007,543210986,13,23,21000,2,9
+'Sadvidya High School',SHS014,432109875,14,25,45500,2,10
+'Canara High School',CHS002,987654321,15,25,30000,3,10
