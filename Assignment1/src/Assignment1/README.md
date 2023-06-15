@@ -1,4 +1,4 @@
-<div align="justify">
+
 Consider you are a company who are helping parents choose the right school for their kids. Find the best schools based on sports events, cultural events, fees, and teacher feedback. In
 order to achieve this we need to perform the following.
   
@@ -21,4 +21,3 @@ order to achieve this we need to perform the following.
 
 5. Create a program which generates 3 PDFs, 1 PDF containing Good Schools, 2nd PDF containing Medium Schools and 3rd PDF containing OK schools. 
    During generation of PDF make sure there are 3 threads used should not be a single thread 
- </div>
