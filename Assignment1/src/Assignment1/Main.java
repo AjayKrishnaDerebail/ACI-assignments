@@ -41,7 +41,7 @@ public class Main {
         public static void main(String[] args) {
             //System.out.println("Hello world!");
             SchoolInfo school1 = new SchoolInfo("St. Aloysius High School", "SAHS001", 123456789, 10, 20, 17240.0, 5, 8);
-            Assignment1.SchoolInfo school2 = new SchoolInfo("Canara High School", "CHS002", 987654321, 15, 25, 30000.0, 3, 10);
+            SchoolInfo school2 = new SchoolInfo("Canara High School", "CHS002", 987654321, 15, 25, 30000.0, 3, 10);
             SchoolInfo school3 = new SchoolInfo("Cambridge International School", "CIS003", 567890123, 8, 18, 49000.0, 7, 6);
             SchoolInfo school4 = new SchoolInfo("Little Rock Indian School", "LRIS004", 907654321, 12, 22, 50000.0, 4, 9);
             SchoolInfo school5 = new SchoolInfo("Lourdes Central School", "LCS005", 234568901, 9, 15, 37800.0, 6, 5);
