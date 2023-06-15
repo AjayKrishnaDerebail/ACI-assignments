@@ -18,6 +18,6 @@ order to achieve this we need to perform the following.
  Medium
  OK
  This grouping must be based on the parameters totalsportseventsperyear, totalcultureventsperyear, averageannualfee, totalteachercomplaints, totalteacherappreciation
-
-5. Create a program which generates 3 PDFs, 1 PDF containing Good Schools, 2nd PDF containing Medium Schools and 3rd PDF containing OK schools. 
+ 
+ 5.Create a program which generates 3 PDFs, 1 PDF containing Good Schools, 2nd PDF containing Medium Schools and 3rd PDF containing OK schools. 
    During generation of PDF make sure there are 3 threads used should not be a single thread 
