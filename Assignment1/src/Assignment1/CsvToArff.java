@@ -7,8 +7,8 @@ import java.io.File;
 
 public class CsvToArff {
     public static void main(String[] args) {
-        String csvFile = "C:\\Users\\ajayk\\IdeaProjects\\ACI\\src\\Assignment1\\schoolsorted.csv"; // Replace with your CSV file path
-        String arffFile = "C:\\Users\\ajayk\\IdeaProjects\\ACI\\src\\Assignment1\\schoolssorted.arff"; // Replace with the desired ARFF file path
+        String csvFile = "C:\\Users\\ajayk\\IdeaProjects\\ACI\\src\\Assignment1\\schoolsorted.csv"; 
+        String arffFile = "C:\\Users\\ajayk\\IdeaProjects\\ACI\\src\\Assignment1\\schoolssorted.arff"; 
         try {
             // Load the CSV file using Weka's CSVLoader
             CSVLoader loader = new CSVLoader();
