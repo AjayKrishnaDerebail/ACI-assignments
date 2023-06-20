@@ -115,7 +115,7 @@ order to achieve this we need to perform the following.
  This grouping must be based on the parameters totalsportseventsperyear, totalcultureventsperyear, averageannualfee, totalteachercomplaints, 
  totalteacherappreciation
 
-/*First we load the ARFF file and use the Kmeans Clustering algorithm to perform classification. Three clusters are generated and the schools belonging to the same clusters are grouped and put together into their respective arraylists, for instance cluster 0 is up into an arraylist variable a0 */
+/*First we load the ARFF file and use the Kmeans Clustering algorithm to perform classification. Three clusters are generated and the schools belonging to the same clusters are grouped and put together into their respective arraylists, for instance the arraylist variable a0 contains school names present in cluster 0*/
 
 
 
