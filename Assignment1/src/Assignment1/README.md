@@ -229,6 +229,8 @@ order to achieve this we need to perform the following.
     }
 }
 // The objects of PDFCreationThread class has to be created in the "Classification " class's main method
+
+
         PDFCreationThread thread1 = new PDFCreationThread(a0, "okSchools.pdf");
         PDFCreationThread thread2 = new PDFCreationThread(a1, "mediumSchools.pdf");
         PDFCreationThread thread3 = new PDFCreationThread(a2, "goodSchools.pdf");
