@@ -3,8 +3,8 @@ Consider you are a company who are helping parents choose the right school for t
 order to achieve this we need to perform the following.
   
   
-1.Create a POJO object in which represents parents or any person who is trying to search for a good school 
-  Name, phoneno, email
+1.Create a POJO object in which represents parents or any person who is trying to search for a good school .Name, phoneno, email
+
   
   public class Parent {
     private String name;
@@ -38,6 +38,8 @@ order to achieve this we need to perform the following.
 2.Create a POJO object which has the following information. 
   Schoolname, schoolcode, schoolphoneno, totalsportseventsperyear, totalcultureventsperyear, averageannualfee, totalteachercomplaints, totalteacherappreciation
   Also have an excel file and .arff file which can have the above data for testing purpose
+
+
 
   public class SchoolInfo {
     private String schoolName;
@@ -100,7 +102,7 @@ order to achieve this we need to perform the following.
   totalteacherappreciation And sort direction -ascending or descending. If the user does not provide one of the sort by then throw a custom exception
   SchoolSortByCriteriaNotMetException
 
-  //The SchoolSortByCriteriaNotMetException class is triggered when the sorting criteria isn't met
+  //The SchoolSortByCriteriaNotMetException class is triggered when the sorting criteria isn't met.
 
   class SchoolSortByCriteriaNotMetException extends Exception{
     public SchoolSortByCriteriaNotMetException(String direction){
@@ -232,4 +234,4 @@ class PDFCreationThread extends Thread {
         }
 
         System.out.println("PDF files created successfully.");
-<div align="justify">
+</div>
