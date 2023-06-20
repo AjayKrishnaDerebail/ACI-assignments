@@ -102,6 +102,9 @@ order to achieve this we need to perform the following.
   totalteacherappreciation And sort direction -ascending or descending. If the user does not provide one of the sort by then throw a custom exception
   SchoolSortByCriteriaNotMetException
 
+
+
+
   //The SchoolSortByCriteriaNotMetException class is triggered when the sorting criteria isn't met.
 
   class SchoolSortByCriteriaNotMetException extends Exception{
@@ -118,6 +121,9 @@ order to achieve this we need to perform the following.
  totalteacherappreciation
 
 /*First we load the ARFF file and use the Kmeans Clustering algorithm to perform classification. Three clusters are generated and the schools belonging to the same clusters are grouped and put together into their respective arraylists, for instance cluster 0 is up into an arraylist variable a0 */
+
+
+
 
 
 import weka.clusterers.SimpleKMeans;
@@ -182,6 +188,12 @@ public class Classification {
 
 // The PDFCreationThread class extends Thread and is responsible for creating a PDF document from an ArrayList of strings, using the provided filename.
    It overrides the run() method to initialize a Document object, add paragraphs to it, and save it as a PDF file.
+
+
+
+
+
+
    
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
