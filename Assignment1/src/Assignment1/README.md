@@ -1,4 +1,4 @@
-<div align="justify">
+<div align="left">
 Consider you are a company who are helping parents choose the right school for their kids. Find the best schools based on sports events, cultural events, fees, and teacher feedback. In
 order to achieve this we need to perform the following.
   
@@ -107,11 +107,11 @@ order to achieve this we need to perform the following.
 
   //The SchoolSortByCriteriaNotMetException class is triggered when the sorting criteria isn't met.
 
-  class SchoolSortByCriteriaNotMetException extends Exception{
-    public SchoolSortByCriteriaNotMetException(String direction){
-        super(direction);
-    }
-}
+        class SchoolSortByCriteriaNotMetException extends Exception{
+            public SchoolSortByCriteriaNotMetException(String direction){
+            super(direction);
+            }
+      }
 
 4.Create a JAVA program to group the schools into
  Good
@@ -126,19 +126,19 @@ order to achieve this we need to perform the following.
 
 
 
-import weka.clusterers.SimpleKMeans;
-import weka.core.Attribute;
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils;
+        import weka.clusterers.SimpleKMeans;
+        import weka.core.Attribute;
+        import weka.core.Instances;
+        import weka.core.converters.ConverterUtils;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
+        import java.io.FileNotFoundException;
+        import java.io.FileOutputStream;
+        import java.nio.file.Path;
+        import java.nio.file.Paths;
+        import java.util.ArrayList;
 
-public class Classification {
-    public static void main(String[] args) throws Exception {
+        public class Classification {
+        public static void main(String[] args) throws Exception {
         // Load the ARFF file
         Instances data = ConverterUtils.DataSource.read("C:\\Users\\ajayk" +
                 "\\IdeaProjects\\ACI\\src\\Assignment1\\schoolssorted.arff");
@@ -195,17 +195,17 @@ public class Classification {
 
 
    
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+    import java.io.FileNotFoundException;
+    import java.io.FileOutputStream;
+    import java.nio.file.Path;
+    import java.nio.file.Paths;
 
-import com.itextpdf.text.Document;
-import com.itextpdf.text.DocumentException;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.pdf.PdfWriter;
+    import com.itextpdf.text.Document;
+    Import com.itextpdf.text.DocumentException;
+    import com.itextpdf.text.Paragraph;
+    import com.itextpdf.text.pdf.PdfWriter;
 
-class PDFCreationThread extends Thread {
+    class PDFCreationThread extends Thread {
     private ArrayList<String> arrayList;
     private String filename;
     public PDFCreationThread(ArrayList<String> arrayList, String filename) {
