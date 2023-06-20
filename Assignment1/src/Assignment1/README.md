@@ -6,13 +6,10 @@ order to achieve this we need to perform the following.
 1.Create a POJO object in which represents parents or any person who is trying to search for a good school .Name, phoneno, email
 
   
-  public class Parent {
+    public class Parent {
     private String name;
     private long phone_no;
     private String email;
-
-    public Parent() {
-    }
 
     public Parent(String name, long phone_no, String email) {
         this.name = name;
@@ -41,7 +38,7 @@ order to achieve this we need to perform the following.
 
 
 
-  public class SchoolInfo {
+    public class SchoolInfo {
     private String schoolName;
     private String schoolCode;
     private long schoolPhoneNo;
@@ -50,10 +47,8 @@ order to achieve this we need to perform the following.
     private double averageAnnualFee;
     private int totalTeacherComplaints;
     private int totalTeacherAppreciation;
-    public SchoolInfo() {
-    }
 
-    public SchoolInfo(String schoolName, String schoolCode, long schoolPhoneNo, int totalSportseventsperyear, int totalCultureeventsperyear, double averageAnnualFee, int totalTeacherComplaints, int totalTeacherAppreciation) {
+    public SchoolInfo(String schoolName, String schoolCode, long schoolPhoneNo, int totalSportseventsperyear, int totalCultureeventsperyear, double     averageAnnualFee, int totalTeacherComplaints, int totalTeacherAppreciation) {
         this.schoolName = schoolName;
         this.schoolCode = schoolCode;
         this.schoolPhoneNo = schoolPhoneNo;
