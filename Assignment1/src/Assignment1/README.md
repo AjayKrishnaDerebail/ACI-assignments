@@ -180,8 +180,8 @@ order to achieve this we need to perform the following.
                 a2.add(name);
             }
         }
-  }
-}
+      }
+    }
  
  5.Create a program which generates 3 PDFs, 1 PDF containing Good Schools, 2nd PDF containing Medium Schools and 3rd PDF containing OK schools. 
    During generation of PDF make sure there are 3 threads used should not be a single thread 
@@ -223,11 +223,11 @@ order to achieve this we need to perform the following.
                 document.add(new Paragraph(element));
             }
             document.close();
-        } catch (DocumentException | FileNotFoundException e) {
-            e.printStackTrace();
+            } catch (DocumentException | FileNotFoundException e) {
+                  e.printStackTrace();
+            }
         }
     }
-}
 // The objects of PDFCreationThread class has to be created in the "Classification " class's main method
 
 
@@ -243,9 +243,9 @@ order to achieve this we need to perform the following.
             thread1.join();
             thread2.join();
             thread3.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
-        System.out.println("PDF files created successfully.");
+            System.out.println("PDF files created successfully.");
 </div>
